@@ -1,0 +1,2 @@
+# JetDesain PHP branding layer
+php_value auto_prepend_file /home/jetz7773/public_html/brand-config.php
