@@ -2,5 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/jetz7773/public_html/
-    - /bin/cp -R index.html $DEPLOYPATH
+    - /bin/cp -f index.php $DEPLOYPATH
+    - /bin/cp -f index.html $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
