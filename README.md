@@ -1,22 +1,31 @@
 # JETDESAIN.COM
 
-App-style responsive website for JetDesain — Desain • Bangun • Wujudkan.
+Website responsive JETDESAIN — **Desain • Bangun • Wujudkan**.
+
+## Data produksi
+- Alamat: Jl. Green Joyoboyo No 6, Banjarmlati, Kec. Mojoroto, Kota Kediri, Jawa Timur 64119
+- Email: jetcreativedesain@gmail.com
+- WhatsApp: +62 895-2105-2099
+- Instagram: @jetdesainkediri
+- TikTok: @jet.desain.interior
 
 ## Stack
 - PHP single-page frontend
 - Responsive mobile-first UI
+- Portfolio filter
+- Budget estimator
+- Consultation form → WhatsApp
+- Local JetDesain logo asset
 - cPanel Git deployment via `.cpanel.yml`
-- WhatsApp consultation CTA
-- Portfolio filtering and search
 
 ## cPanel
-The repository already contains `.cpanel.yml` configured for:
+Repository path:
+`/home/jetz7773/repositories/jetdesain`
+
+Deployment path:
 `/home/jetz7773/public_html/`
 
-In cPanel, connect the repository through **Git Version Control** and use **Update from Remote** / deployment when the repository is ready.
+`.cpanel.yml` is configured to copy `index.php` and `assets/` into the public web directory.
 
-## WhatsApp
-The current code uses `6281234567890` as the same placeholder number used by the previous site. Replace `$wa` at the top of `index.php` with the real JetDesain WhatsApp number before production if needed.
-
-## Content
-Replace the sample project URLs and project data in `index.php` with JetDesain's real portfolio images, locations, sizes and pricing.
+## Important
+The production site uses the current JetDesain contact details above. No temporary wrapper, `auto_prepend_file`, or legacy include is required by `index.php`.
