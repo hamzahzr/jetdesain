@@ -1,1 +1,15 @@
-{"name":"Jet Desain Corp","short_name":"JetDesain","start_url":"index.html","display":"standalone","background_color":"#080c12","theme_color":"#080c12","icons":[{"src":"assets/favicon.svg","sizes":"any","type":"image/svg+xml"}]}
+{
+  "name": "Jet Desain Corp",
+  "short_name": "JetDesain",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080c12",
+  "theme_color": "#080c12",
+  "icons": [
+    {
+      "src": "/assets/jet-logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
