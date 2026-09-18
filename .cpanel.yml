@@ -8,4 +8,5 @@ deployment:
     - /bin/cp -f digital.html $DEPLOYPATH
     - /bin/cp -f creative.html $DEPLOYPATH
     - /bin/cp -f manifest.webmanifest $DEPLOYPATH
+    - /bin/cp -f .htaccess $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
