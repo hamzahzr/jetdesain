@@ -7,4 +7,5 @@ deployment:
     - /bin/cp -f construction.html $DEPLOYPATH
     - /bin/cp -f digital.html $DEPLOYPATH
     - /bin/cp -f creative.html $DEPLOYPATH
+    - /bin/cp -f manifest.webmanifest $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
